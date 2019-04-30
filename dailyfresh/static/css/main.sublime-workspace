@@ -1,0 +1,388 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"b",
+				"bottom\tproperty"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"hei",
+				"height\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"log",
+				"logo_bar"
+			],
+			[
+				"005",
+				"005.webp"
+			],
+			[
+				"004",
+				"004-02.gif\tw:256 h:256"
+			],
+			[
+				"003",
+				"003-01.gif\tw:200 h:123"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"font",
+				"font\tproperty"
+			],
+			[
+				"fon",
+				"font\tproperty"
+			],
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"n",
+				"hidden\toverflow"
+			],
+			[
+				"bord",
+				"border-bottom\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"cl",
+				"clear\tproperty"
+			],
+			[
+				"re",
+				"repeat-x\tbackground-repeat"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"f",
+				"fixed\tposition"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"ov",
+				"overflow\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"listst",
+				"list-style\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"bacc",
+				"background-color\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"ce",
+				"cellspacing\tAttr"
+			],
+			[
+				"cel",
+				"cellpadding\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/python 就业班视频/html/web/css/main.css",
+		"/E/python 就业班视频/html/web/css/reset.css",
+		"/E/python 就业班视频/html/001day/demo001.html",
+		"/E/python 就业班视频/html/001day/003图片格式.html",
+		"/E/python 就业班视频/html/001day/042css新闻列表02.html",
+		"/E/python 就业班视频/html/001day/043css图片列表布局视频中.html",
+		"/E/python 就业班视频/html/001day/041css图片列表.html",
+		"/E/python 就业班视频/html/001day/040css新闻列表.html",
+		"/E/python 就业班视频/html/001day/039css实例导航条02.html",
+		"/E/python 就业班视频/html/001day/038css布局特征实例2.html",
+		"/E/python 就业班视频/html/001day/037css布局特征实例.html",
+		"/E/python 就业班视频/html/001day/035css背景.html",
+		"/E/python 就业班视频/html/001day/036css背景滚动.html",
+		"/E/python 就业班视频/html/001day/035css定位元素层级.html",
+		"/E/python 就业班视频/html/001day/034css固定定位.html",
+		"/E/python 就业班视频/html/001day/033css绝对定位.html",
+		"/E/python 就业班视频/html/001day/031css清除浮动.html",
+		"/E/python 就业班视频/html/001day/030css浮动饶图.html",
+		"/E/python 就业班视频/html/001day/029css浮动.html",
+		"/E/python 就业班视频/html/001day/033css相对定位.html",
+		"/E/python 就业班视频/html/001day/021块元素.html",
+		"/E/python 就业班视频/html/001day/027css内联元素.html",
+		"/E/python 就业班视频/html/001day/028css内联块元素.html",
+		"/E/python 就业班视频/html/001day/026css元素溢出.html",
+		"/E/python 就业班视频/html/001day/025margin-top塌陷.html",
+		"/E/python 就业班视频/html/001day/024垂直margin合并.html",
+		"/E/python 就业班视频/html/001day/023css盒子尺寸.html",
+		"/E/python 就业班视频/html/001day/022css盒子模型.html",
+		"/E/python 就业班视频/html/001day/020表格样式.html",
+		"/E/python 就业班视频/html/001day/019css选择器.html",
+		"/E/python 就业班视频/html/001day/017块元素.html",
+		"/E/python 就业班视频/html/001day/18内联元素.html",
+		"/E/python 就业班视频/html/001day/016 css选择器.html",
+		"/E/python 就业班视频/html/001day/resume.html",
+		"/E/python 就业班视频/html/001day/css/main.css",
+		"/E/python 就业班视频/html/001day/013样式-内嵌式.html",
+		"/E/python 就业班视频/html/001day/013内嵌框架.html",
+		"/E/python 就业班视频/html/001day/012表单.html",
+		"/E/python 就业班视频/html/001day/010表格.html",
+		"/E/python 就业班视频/html/001day/009列表.html",
+		"/E/python 就业班视频/html/001day/007页面内跳转.html",
+		"/E/python 就业班视频/html/001day/demo.html",
+		"/E/python 就业班视频/html/001day/006链接.html",
+		"/E/python 就业班视频/html/001day/001.html",
+		"/E/python 就业班视频/html/001day/块样式标签.html",
+		"/E/python 就业班视频/html/001day/005html图像.html",
+		"/E/python 就业班视频/html/001day/test.html",
+		"/E/python 就业班视频/html/001day/块.html",
+		"/E/python 就业班视频/html/001day/aaa.html",
+		"/E/python 就业班视频/html/001day/002.html",
+		"/E/python 就业班视频/html/001day/33.html",
+		"/E/python 就业班视频/html/001day/0001.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

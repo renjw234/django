@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+{% block head %}
+<script>
+$(function () {
+	var error_uyoubian = false;
+	var error_uphone = false;
+	$('.uyoubian').blur(function () {
+		check_uyoubian();
+	});
+	$('.uyoubian').focus(function () {
+		$('.uyoubian').next().hide();
+	});
+	$('.uphone').blur(function () {
+		check_uphone();
+	});
+	$('.uphone').focus(function () {
+		$(this).next().hide();
+	});
+	function check_uyoubian() {
+		var len=$('.uyoubian').val().length();
+		if (len = 6)
+		{
+			$('.uyoubian').next().html('请输入6位数邮编！').show();
+			error_uyoubian = true;
+		}
+		else
+		{
+			error_uyoubian = false;
+		}
+	}
+
+	function check_uphone() {
+		var len = $('.uphone').val().length();
+		if (len != 11)
+		{
+			$('.uphone').next().html('请输入11位电话号码').show();
+			error_phone = true;
+		}
+		else
+		{
+			error_phone = false;
+		}
+	}
+
+	$('.site_con').submit(function () {
+		check_uyoubian();
+		check_uphone();
+		if(!(error_uyoubian == false && error_uphone == false)){
+			return false;
+		}
+	})
+})
+
+</script>
+{% endblock head %}
+{% block body %}
+
+	<div class="main_con clearfix">
+		<div class="left_menu_con clearfix">
+			<h3>用户中心</h3>
+			<ul>
+				<li><a href="/user/info/">· 个人信息</a></li>
+				<li><a href="/user/order/1/">· 全部订单</a></li>
+				<li><a href="/user/site/" class="active">· 收货地址</a></li>
+			</ul>
+		</div>
+		<div class="right_content clearfix">
+				<h3 class="common_title2">收货地址</h3>
+				<div class="site_con">
+					<dl>
+						<dt>当前地址：</dt>
+						<!--<dd>北京市 海淀区 东北旺西路8号中关村软件园 （李思 收） 182****7528</dd>-->
+						<dd>{{user.uaddress}} ({{user.ushou}} 收) {{user.uphone}}</dd>
+
+					</dl>					
+				</div>
+				<h3 class="common_title2">编辑地址</h3>
+				<div class="site_con">
+					<form action="/user/site/" method="post">
+						{% csrf_token %}
+						<div class="form_group">
+							<label>收件人：</label>
+							<input type="text" name="ushou" value="{{user.ushou}}">
+						</div>
+						<div class="form_group form_group2">
+							<label>详细地址：</label>
+							<textarea class="site_area" name="uaddress">{{user.uaddress}}</textarea>
+						</div>
+						<div class="form_group">
+							<label>邮编：</label>
+							<input type="text" class="uyoubian" name="uyoubian" value="{{user.uyoubian}}">
+							<span class="erro_tip1">提示信息</span>
+						</div>
+						<div class="form_group">
+							<label>手机：</label>
+							<input type="text" class="uphone" name="uphone" value="{{user.uphone}}">
+							<span class="erro_tip2">提示信息</span>
+						</div>
+
+						<input type="submit"  value="提交" class="info_submit">
+					</form>
+				</div>
+		</div>
+	</div>
+
+{% endblock body %}
